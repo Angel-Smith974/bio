@@ -1,26 +1,35 @@
-.titre{
+.titre {
     text-align: center;
 }
 
-.pro{
-
-    width:100%;
+.pro {
+    width: 100%;
     
 }
 
-.pro01{
-
-    height: 50%;
+.pro01 {
+    height: 100%;
+    width: 100%;
 }
 
-
-.container{
+.container {
     text-align: justify;
+    background-image:url(image/space.jpg);
 }
 
-/*
-.formulaire{
-    
-    
+.formulaire {
+    width: 50%;
+    margin: auto;
 }
-*/
+
+.contact {
+    text-align: center;
+}
+
+body {
+    background: black;
+}
+
+p{
+    color:white;
+}

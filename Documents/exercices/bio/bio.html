@@ -17,7 +17,7 @@
 
 <body>
     <div class="container">
-        <h1 class="titre">BIO</h1>
+        <h1 class="titre mt-5 mb-5">BIOGRAPHIE</h1>
 
         <div class="row">
             <div class="col-4">
@@ -53,7 +53,7 @@
             </div>
         </div>
 
-        <p>
+        <p class="mt-4 mb-4">
             In the first draft of The Star Wars, tall, grim general "Darth Vader" was already close in line with his
             final depiction, and the protagonist Annikin Starkiller had a role similar to that of his son Luke's as the
             16-year-old son of a respected warrior.[15] Originally, Lucas conceived of the Sith as a group that served
@@ -100,22 +100,24 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <footer>
+        <form class="formulaire">
+            <h1 class="mt-4 contact">Contact</h1>
+            <div class="row">
+                <div class="col">
+                    Nom :<input type="text" class="form-control" placeholder="Votre Nom">
+                    Prénom :<input type="text" class="form-control" placeholder="Votre Prénom">
+                    Adresse email :<input type="text" class="form-control" placeholder="Votre adresse email">
+                    Objet :<input type="text" class="form-control" placeholder="L'objet de votre message">
+                    Message :<input type="text" class="form-control" placeholder="Votre message">
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary mt-3 mb-5">Envoyer</button>
+        </form>
+    </footer>
 </body>
 
-<footer>
-    <form class="formulaire">
-        <h1>Contact</h1>
-        <div class="row">
-            <div class="col-3">
-                <input type="text" class="form-control" placeholder="Nom">
-                <input type="text" class="form-control" placeholder="Prénom">
-                <input type="text" class="form-control" placeholder="Adresse email">
-                <input type="text" class="form-control" placeholder="Objet">
-                <input type="text" class="form-control" placeholder="Message">
-            </div>
-        </div>
-        <button type="button" class="btn btn-primary">Envoyer</button>
-    </form>
-</footer>
+
 
 </html>
